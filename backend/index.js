@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:' https://job-portal-3-mssf.onrender.com',
+    origin:' https://6a61b29e4c81b38aa0d6b43f--dainty-madeleine-0a0818.netlify.app',
     credentials:true
 }
 
